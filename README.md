@@ -1,3 +1,5 @@
-# 2020-personal-python
+# 2020-ssbread's-python
 
-请修改 README
+- 此仓库由福州大学数计学院软件工程纪助教提供
+- 此次作业需要用到`json`文件的处理与`GitHub`的基础操作
+- 我在此次作业中学会了命令行参数的使用与`json`文件的处理
