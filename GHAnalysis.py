@@ -51,10 +51,11 @@ if __name__ == "__main__":
     type__="-1"
     actor_login_="-1"
     repo_name_="-1"
-    path="json"
+    path=""
     for opt in opts:
         if opt[0]=="-i" or opt[0]=="--init":
             path=opt[1]
+            data_init(path)
             break
         elif opt[0]=="-u" or opt[0]=="--user":
             actor_login_=opt[1]
@@ -62,7 +63,7 @@ if __name__ == "__main__":
             repo_name_=opt[1]
         else:
              type__=opt[1]
-    data_init(path)
+    #data_init(path)
     da=open('data_file.json','r',encoding='utf-8')
     for x in da:
         y=json.loads(x)
