@@ -44,7 +44,6 @@ def request_num(all_data,type_,actor_login,repo_name):
             else:
                 continue
     return num
-
 if __name__ == "__main__":
     opts,arvs= getopt.getopt(sys.argv[1:],'i:u:r:e:',['user=','repo=','event=','init='])
     all_data1=[]
