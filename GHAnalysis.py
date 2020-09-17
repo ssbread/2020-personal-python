@@ -2,7 +2,6 @@ import json
 import os
 import sys
 import getopt
-
 def data_init(path_to_data):
     files=os.listdir(path_to_data)  #数据文件夹中json文件的文件名列表
     f=open('data_file.json','w',encoding='utf-8')
